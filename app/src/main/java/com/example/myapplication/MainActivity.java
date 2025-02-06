@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void getCurrentWeather(View view) {
         String baseUrl = "https://api.openweathermap.org/data/2.5/weather";
-        String apiKey = "d2ce52f6fe7d5903ef26865fbd1df0ce";
+        String apiKey = "-";
 
         String c = city.getText().toString().trim();
 
